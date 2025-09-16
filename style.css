@@ -63,12 +63,16 @@ nav ul li a{
 
 }
 
-.back-video{
+.back-video {
     position: absolute;
-    right:0;
-    bottom:0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Hace que el video se adapte sin deformarse */
     z-index: -1;
 }
+
 
 @media (min-aspect-ratio: 16/9){
     .back-video{
@@ -117,3 +121,4 @@ nav ul li a{
 
 
     
+
