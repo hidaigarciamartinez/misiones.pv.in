@@ -82,3 +82,38 @@ nav ul li a{
         height: 100%;
     }
 }
+
+
+/* Ajustes para pantallas medianas */
+@media (max-width: 1024px) {
+    .content h1 {
+        font-size: 80px;
+    }
+    nav ul li {
+        margin-left: 20px;
+    }
+}
+
+/* Ajustes para celulares */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    nav ul {
+        margin-top: 20px;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .content h1 {
+        font-size: 50px;
+    }
+    .content a {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+}
+
+
+    
