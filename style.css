@@ -44,23 +44,21 @@ nav ul li a{
     text-align:center;
 }
 
-.content h1{
-    font-size: 160px;
-    color:#fff;
+.content h1 {
+    font-size: 100px; /* valor por defecto */
+    color: #fff;
     font-weight: 600;
-
 }
 
-.content a{
+.content a {
     text-decoration: none;
-    display:inline-block;
-    color:#fff;
-    font-size:24px;
-    border:2px solid #fff;
-    padding: 14px 70px;
-    border-radius:50 px;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 40px;
+    border-radius: 50px; /* corregido */
     margin-top: 20px;
-
 }
 
 .back-video{
@@ -117,5 +115,6 @@ nav ul li a{
 
 
     
+
 
 
