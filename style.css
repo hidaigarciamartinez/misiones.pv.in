@@ -132,9 +132,32 @@ nav ul {
   }
 }
 
+/* Oculta menú en móvil */
+#menu {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Icono hamburguesa */
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* En pantallas pequeñas */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+}
+
+
 
 
     
+
 
 
 
