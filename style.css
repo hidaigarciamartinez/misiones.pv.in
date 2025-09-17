@@ -115,28 +115,13 @@ nav ul li a{
     }
 }
 
-/* Estilo general del menú */
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 20px;
-}
-
-/* Para pantallas pequeñas */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column; /* apila las opciones */
-    align-items: center;    /* centra el texto */
-    gap: 10px;              /* espacio entre ítems */
-  }
-}
 
 
 
 
 
     
+
 
 
 
