@@ -132,38 +132,12 @@ nav ul {
   }
 }
 
-/* Menú por defecto en pantallas grandes */
-#menu {
-  display: flex;             /* visible en escritorio */
-  justify-content: center;   /* centra horizontal */
-  list-style: none;
-  gap: 20px;                 /* espacio entre opciones */
-}
-
-/* Oculta menú en móvil */
-@media (max-width: 768px) {
-  #menu {
-    display: none;           /* en móvil, oculto al inicio */
-    flex-direction: column;  /* cuando se muestre, en columna */
-    text-align: center;
-  }
-
-  .menu-icon {
-    display: block;          /* muestra el icono ☰ */
-  }
-}
-
-/* Icono hamburguesa por defecto oculto en PC */
-.menu-icon {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-}
 
 
 
 
     
+
 
 
 
